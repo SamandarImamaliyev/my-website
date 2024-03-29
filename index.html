@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Samandar Imamaliyev">
+    <meta name="description" content="web design">
+    <meta name="keywords" content="web,  design, programming">
+    <link rel="icon" href="./image/favicon.png">
+    <link rel="apple-touch-icon" href="./image/apple-touch-icon.png">
+    <title>My Website</title>
+    <style>
+        @import url("css/all.css");
+    </style>
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/custom/extra.css">
+</head>
+
+<body id="page-body">
+    <!-- nav starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 py-lg-4" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand text-danger text-uppercase class-logo fw-bolder" href="#page-body">My Website</a>
+            <button class="navbar-toggler border-danger btn btn-danger" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-danger" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav text-uppercase justify-content-end flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link active btn-close-canvas" aria-current="page" href="#page-body">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-close-canvas" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-close-canvas" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-close-canvas" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-close-canvas" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-close-canvas" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item btn-close-canvas" href="#">Action</a></li>
+                                <li><a class="dropdown-item btn-close-canvas" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item btn-close-canvas" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ends -->
+
+    <!-- header starts -->
+    <header class="backImage text-white text-center">
+        <div class="container">
+            <div class="welcome-text">Welcome</div>
+            <a href="#services" class="btn btn-light btn-lg p-lg-3 text-uppercase fw-bolder ">Read more</a>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- services starts -->
+    <section id="services" class="mySection">
+        <div class="container">
+            <div class=" text-center mb-5">
+                <h2 class="sectionHeading text-uppercase fw-bold">Services</h2>
+                <h3 class="sectionSubHeading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ducimus,
+                    deleniti error maiores repudiandae
+                    saepe non, obcaecati impedit laudantium expedita soluta atque quaerat architecto molestias dolor
+                    illo
+                    aliquid in ullam. Quo.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="rounded-circle bg-danger text-white m-auto d-flex align-items-center justify-content-center"
+                        style="width: 144px; height: 144px;" aria-hidden="true">
+                        <i class="bi bi-cart4" style="font-size: 80px;"></i>
+                    </div>
+                    <h4 class="text-uppercase my-3">E-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non hic mollitia
+                        porro nobis atque iusto
+                        nulla aperiam beatae? Ratione blanditiis nisi cupiditate deleniti a unde exercitationem expedita
+                        tempore est! Quos!</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-circle bg-danger text-white m-auto d-flex align-items-center justify-content-center"
+                        style="width: 144px; height: 144px;" aria-hidden="true">
+                        <i class="bi bi-laptop" style="font-size: 80px;"></i>
+                    </div>
+                    <h4 class="text-uppercase my-3">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non hic mollitia
+                        porro nobis atque iusto
+                        nulla aperiam beatae? Ratione blanditiis nisi cupiditate deleniti a unde exercitationem expedita
+                        tempore est! Quos!</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="rounded-circle bg-danger text-white m-auto d-flex align-items-center justify-content-center"
+                        style="width: 144px; height: 144px;" aria-hidden="true">
+                        <i class="bi bi-shield-lock" style="font-size: 80px;"></i>
+                    </div>
+                    <h4 class="text-uppercase my-3">Web Security</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non hic mollitia
+                        porro nobis atque iusto
+                        nulla aperiam beatae? Ratione blanditiis nisi cupiditate deleniti a unde exercitationem expedita
+                        tempore est! Quos!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services end -->
+
+    <!-- portfolio starts -->
+    <section id="portfolio" class="mySection bg-light">
+        <div class="container">
+            <div class=" text-center mb-5">
+                <h2 class="sectionHeading text-uppercase fw-bold">Portfolio</h2>
+                <h3 class="sectionSubHeading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                    qui modi est error suscipit voluptate, illum tenetur recusandae cum quisquam dignissimos laborum
+                    velit a eligendi eum aliquid ad necessitatibus magnam?</h3>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal1" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/books_shelf_collection.png" alt="Books" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Book Design</div>
+                            <div class="pc-subheading text-muted fst-italic">Ancient books for book site</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal2" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/ladybug_drop_surface.png" alt="Ladybug" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Ladybug</div>
+                            <div class="pc-subheading text-muted fst-italic">Beautiful lady bug</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal3" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/lemons_citrus_juicy.png" alt="Lemons" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Lemons</div>
+                            <div class="pc-subheading text-muted fst-italic">Yellow lemons in a white background</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal4" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/notes_dirty_paper.png" alt="Notes" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Note papers</div>
+                            <div class="pc-subheading text-muted fst-italic">Dirty note papers</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal5" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/peakpx.png" alt="Peak" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Room Design</div>
+                            <div class="pc-subheading text-muted fst-italic">Creative room design for the young</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="p-item">
+                        <a href="#PModal6" class="p-link" data-bs-toggle="modal">
+                            <div class="p-hover">
+                                <div class="ph-content text-white">
+                                    <i class="bi bi-plus-lg "></i>
+                                </div>
+                            </div>
+                            <img src="./image/portfolio/deer_winter_night.png" alt="Deer" class="img-fluid">
+                        </a>
+                        <div class="p-caption text-center bg-white p-4">
+                            <div class="pc-heading">Deer</div>
+                            <div class="pc-subheading text-muted fst-italic">Deer in winter night</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio ends -->
+
+    <!-- about starts -->
+    <section id="about" class="mySection">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sectionHeading text-uppercase fw-bold">About</h2>
+                <h3 class="sectionSubHeading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    quod, impedit, modi quia ea labore repellendus deleniti libero consequuntur ullam aperiam autem
+                    quisquam tenetur dicta doloremque. Doloremque mollitia vero beatae. </h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="t-image">
+                        <img class="img-fluid rounded-circle" src="./image/about/binary_code_numbers_programming.jpg"
+                            alt="Binary numbers">
+                    </div>
+                    <div class="t-panel">
+                        <div class="t-heading">
+                            <h4>2009-2013</h4>
+                            <h4 class="subheading">First years</h4>
+                        </div>
+                        <div class="t-body">
+                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laborum
+                                beatae architecto aspernatur. In necessitatibus amet esse illum pariatur vero
+                                voluptatibus libero neque deserunt fugit iure laboriosam, maxime quisquam animi!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="t-inverted">
+                    <div class="t-image">
+                        <img class="img-fluid rounded-circle" src="./image/about/code_programming.jpg"
+                            alt="Binary numbers">
+                    </div>
+                    <div class="t-panel">
+                        <div class="t-heading">
+                            <h4>2014</h4>
+                            <h4 class="subheading">Programming</h4>
+                        </div>
+                        <div class="t-body">
+                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laborum
+                                beatae architecto aspernatur. In necessitatibus amet esse illum pariatur vero
+                                voluptatibus libero neque deserunt fugit iure laboriosam, maxime quisquam animi!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="t-image">
+                        <img class="img-fluid rounded-circle" src="./image/about/code_programming_text.jpg"
+                            alt="Binary numbers">
+                    </div>
+                    <div class="t-panel">
+                        <div class="t-heading">
+                            <h4>2015-2017</h4>
+                            <h4 class="subheading">Coding</h4>
+                        </div>
+                        <div class="t-body">
+                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laborum
+                                beatae architecto aspernatur. In necessitatibus amet esse illum pariatur vero
+                                voluptatibus libero neque deserunt fugit iure laboriosam, maxime quisquam animi!</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="t-inverted">
+                    <div class="t-image">
+                        <img class="img-fluid rounded-circle" src="./image/about/laptop_code_programming.jpg"
+                            alt="Binary numbers">
+                    </div>
+                    <div class="t-panel">
+                        <div class="t-heading">
+                            <h4>2017-2023</h4>
+                            <h4 class="subheading">New Company</h4>
+                        </div>
+                        <div class="t-body">
+                            <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae laborum
+                                beatae architecto aspernatur. In necessitatibus amet esse illum pariatur vero
+                                voluptatibus libero neque deserunt fugit iure laboriosam, maxime quisquam animi!</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="t-image">
+                        <h4> Join our team
+                            <br> and be one of us</br>
+                        </h4>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    <!-- about ends -->
+
+    <!-- team starts -->
+    <section id="team" class="mySection bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sectionHeading text-uppercase fw-bold">Our Team</h2>
+                <h3 class="sectionSubHeading text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    quod, impedit, modi quia ea labore repellendus deleniti libero consequuntur ullam aperiam autem
+                    quisquam tenetur dicta doloremque. Doloremque mollitia vero beatae. </h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="t-member text-center">
+                        <img src="./image/team/Elon_Musk1.jpg" alt="Elon Musk" class="rounded-circle mx-auto img-fluid">
+                        <h4>Elon Musk</h4>
+                        <p class="text-muted">Company President</p>
+                        <a href="#" class="btn btn-dark mx-2 btn-social">
+                            <i class="bi bi-twitter-x text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="t-member text-center">
+                        <img src="./image/team/Jeff_Bezos.jpg" alt="Jeff Bezos"
+                            class="rounded-circle mx-auto img-fluid">
+                        <h4>Jeff Bezos</h4>
+                        <p class="text-muted">CEO</p>
+                        <a href="#" class="btn btn-dark mx-2 btn-social">
+                            <i class="bi bi-twitter-x text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="t-member text-center">
+                        <img src="./image/team/Mark_Zuckerberg.jpg" alt="Mark Zuckerberg"
+                            class="rounded-circle mx-auto img-fluid">
+                        <h4>Mark Zuckerberg</h4>
+                        <p class="text-muted">COO</p>
+                        <a href="#" class="btn btn-dark mx-2 btn-social">
+                            <i class="bi bi-twitter-x text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary mx-2 btn-social">
+                            <i class="bi bi-facebook text-white"></i>
+                        </a>
+                        <a href="#" class="btn btn-danger mx-2 btn-social">
+                            <i class="bi bi-instagram text-white"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic minima a
+                        inventore tenetur labore
+                        quod molestiae necessitatibus. Voluptatum itaque facilis minus eum, ipsam totam quam debitis in
+                        ut facere! Fugiat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo
+                        numquam corporis minus sapiente repellat iste iusto, ipsa amet consequatur nihil rem sint soluta
+                        inventore fuga natus nam excepturi. Quibusdam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team ends -->
+
+    <!-- clients starts -->
+    <div class="container py-4">
+        <div class="row align-items-center">
+            <div class="col-sm-6 col-md-3 my-3">
+                <a href="#">
+                    <img src="./image/clients/facebook.svg" alt="Facebook"
+                        class="img-fluid d-block mx-auto myClinets-logo">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 my-3">
+                <a href="#">
+                    <img src="./image/clients/google.svg" alt="Google" class="img-fluid d-block mx-auto myClinets-logo">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 my-3">
+                <a href="#">
+                    <img src="./image/clients/ibm.svg" alt="IBM" class="img-fluid d-block mx-auto myClinets-logo">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 my-3">
+                <a href="#">
+                    <img src="./image/clients/microsoft.svg" alt="Microsoft"
+                        class="img-fluid d-block mx-auto myClinets-logo">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- clients ends -->
+
+    <!-- contact start -->
+    <section id="contact" class="mySection">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sectionHeading text-uppercase fw-bold text-white">Contact</h2>
+                <h3 class="sectionSubHeading text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                    quod, impedit, modi quia ea labore repellendus deleniti libero consequuntur ullam aperiam autem
+                    quisquam tenetur dicta doloremque. Doloremque mollitia vero beatae. </h3>
+            </div>
+            <form class="needs-validation" action="result.php" id="formContact" novalidate>
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-4">
+                            <input type="text" id="name" placeholder="name" class="form-control" required maxlength="40"
+                                aria-describedby="ErrName">
+                            <label for="name">Name
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Compulsory</span>
+                            </label>
+                            <div class="invalid-feedback fs-6 text-white" id="ErrName"></div>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="email" id="email" placeholder="email" class="form-control" required
+                                maxlength="40" aria-describedby="ErrEmail">
+                            <label for="email">Email
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Compulsory</span>
+                            </label>
+                            <div class="invalid-feedback fs-6 text-white" id="ErrEmail"></div>
+                        </div>
+                        <div class="form-floating mb-4">
+                            <input type="tel" id="phone" class="form-control" placeholder="phone" required
+                                maxlength="20" aria-describedby="ErrPhone">
+                            <label for="phone">Phone
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Compulsory</span>
+                            </label>
+                            <div class="invalid-feedback fs-6 text-white" id="ErrPhone"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating form-textarea mb-md-0">
+                            <textarea id="message" class="form-control" placeholder="message" required maxlength="300"
+                                aria-describedby="ErrMessage"></textarea>
+                            <label for="message">Message
+                                <span class="text-danger" aria-hidden="true">*</span>
+                                <span class="visually-hidden">Compulsory</span>
+                            </label>
+                            <div class="invalid-feedback fs-6 text-white" id="ErrMessage"></div>
+                        </div>
+                        <div class="text-white text-end">
+                            <span id="current-character">0</span>
+                            <span>/300</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button id="btnContact" class="btn btn-danger btn-lg text-uppercase py-3 d-block w-100">Send
+                        Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer starts -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center text-lg-start text-muted">
+                    Copyright &copy; My Website 2024
+                </div>
+                <div class="col-lg-4 my-3 my-lg-0 text-center">
+                    <a href="#" class="btn btn-dark mx-2 btn-social">
+                        <i class="bi bi-twitter-x text-white"></i>
+                    </a>
+                    <a href="#" class="btn btn-primary mx-2 btn-social">
+                        <i class="bi bi-facebook text-white"></i>
+                    </a>
+                    <a href="#" class="btn btn-danger mx-2 btn-social">
+                        <i class="bi bi-instagram text-white"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <a href="#" class="link-info text-decoration-none me-3">Privacy policy</a>
+                    <a href="#" class="link-secondary text-decoration-none">Home Page</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+
+    <!-- portfolio modals starts -->
+    <div class="modal fade p-modal" id="PModal1" aria-hidden="true" aria-labelledby="myTitle1" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle1">Book Design</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/books_shelf_collection.png"
+                        alt="Book">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Book Design</li>
+                        <li><strong>Category:</strong> Ancient books for book site</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade p-modal" id="PModal2" aria-hidden="true" aria-labelledby="myTitle2" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle2">Ladybug</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/ladybug_drop_surface.png"
+                        alt="Ladybug">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Ladybug</li>
+                        <li><strong>Category:</strong> Beautiful ladybug</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade p-modal" id="PModal3" aria-hidden="true" aria-labelledby="myTitle3" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle3">Lemon</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/lemons_citrus_juicy.png" alt="Lemon">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Lemons</li>
+                        <li><strong>Category:</strong> Yellow lemons in a white background</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade p-modal" id="PModal4" aria-hidden="true" aria-labelledby="myTitle4" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle4">Note Papers</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/notes_dirty_paper.png" alt="Note">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Note Papers</li>
+                        <li><strong>Category:</strong> Dirty note papers</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade p-modal" id="PModal5" aria-hidden="true" aria-labelledby="myTitle5" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle5">Room Design</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/peakpx.png" alt="Room">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Room Design</li>
+                        <li><strong>Category:</strong> Creative room design for the young</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade p-modal" id="PModal6" aria-hidden="true" aria-labelledby="myTitle6" tabindex="-1"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content  text-center mt-2 py-5">
+                <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                    <img src="./image/close-icon.svg" alt="Close Icon">
+                </div>
+                <div class="modal-body">
+                    <h2 class="text-uppercase mb-3" id="myTitle6">Deer</h2>
+                    <p class="p-intro text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <img class="img-fluid d-block mx-auto" src="./image/portfolio/deer_winter_night.png" alt="Deer">
+                    <p class="my-4 col-lg-6 mx-auto">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsam labore
+                        perspiciatis quo non sequi et assumenda beatae adipisci illo quod distinctio, nobis
+                        ipsa. Cupiditate officia adipisci unde aperiam totam.
+                    </p>
+                    <ul class="list-inline mb-4">
+                        <li><strong>Client:</strong> Deer</li>
+                        <li><strong>Category:</strong> Deer in winter night</li>
+                    </ul>
+                    <button class="btn btn-lg btn-danger text-uppercase py-3" data-bs-dismiss="modal"
+                        type="button">Close
+                        <i class="bi bi-x-lg ms-1"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- porttfolio modals ends -->
+
+    <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom/extra.js"></script>
+</body>
+
+</html>
